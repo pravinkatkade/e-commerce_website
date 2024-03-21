@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product</title>
+  <link rel="stylesheet" href="mobile.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+  <div class="wraper">
+    <div class="first">
+      <div class="name">
+        <h1>electronic gadgets</h1>
+      </div>
+      <div id="menu-bar" class="search">
+
+        <!-- <input class="searchinput" type="search" placeholder="Search Your Faourate Products" aria-label="Search">
+  
+          <button class="searchbtm" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+        <input type="text" placeholder="Search Your Faourate Product" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+      <div class="login1">
+
+        <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i>cart</a>
+        | <a href="#" class="login"><i class="fa-solid fa-user"></i>Login</a>
+      </div>
+    </div>
+
+    <ul class="list-inline ">
+      <!-- <div id="menu-barr" class="fas fa-bars"></div> -->
+
+      <li class="list-inline-item temp" onmouseover="showmobile()" onmouseleave="hidemobile()"><a href="mobile.html">MOBILE &amp TABLETS</a><i class="fa-solid fa-sort-down"></i>
+      </li>
+      <li class="list-inline-item" onmouseover="showtelevision()" onmouseleave="hidetelevision()"><a href="mobile.html">TELEVISIONS</a><i class="fa-solid fa-sort-down"></i></li>
+      <li class="list-inline-item" onmouseover="showaudio()" onmouseleave="hideaudio()"><a href="mobile.html">AUDIO</a><i class="fa-solid fa-sort-down"></i></li>
+      <li class="list-inline-item temp" onmouseover="showhomeapp()" onmouseleave="hidehomeapp()"><a href="mobile.html">HOME APPLIANCES</a><i class="fa-solid fa-sort-down"></i></li>
+      <li class="list-inline-item"onmouseover="showcomputers()" onmouseleave="hidecomputers()"><a href="mobile.html">COMPUTERS</a><i class="fa-solid fa-sort-down"></i></li>
+      <li class="list-inline-item" onmouseover="showcameras()" onmouseleave="hidecameras()"><a href="mobile.html">CAMERAS</a><i class="fa-solid fa-sort-down"></i></li>
+      <li class="list-inline-item temp"onmouseover="showkitchenapp()" onmouseleave="hidekitchenapp()"><a href="mobile.css">KITCHEN APPLIANCES</a><i class="fa-solid fa-sort-down"></i></li>
+      <li class="list-inline-item temp" onmouseover="showpersonalcare()" onmouseleave="hidepersonalcare()"><a href="mobile.html">PERSONAL CARE</a><i class="fa-solid fa-sort-down"></i></li>
+    </ul>
+
+
+    <div class="cards">
+    <div class="card">
+
+
+      <img src="image/samsung galaxcy.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Samsung Galaxy M14</h5>
+        <p class="card-text">Samsung Galaxy M14 4G Arctic Blue,4GB,64GB | 50MP Triple Cam | 5000mAh Battery |
+          Snapdragon 680 Processor | 2 Gen. OS Upgrade & 4 Year Security Update | 8GB RAM with RAM Plus</p>
+        <h6>Price:$50 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/redme mob.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">realme narzo N53 </h5>
+        <p class="card-text">realme narzo N53 (Feather Gold, 8GB+128GB) 33W Segment Fastest Charging | Slimmest
+          Phone in Segment | 90 Hz Smooth Display</p>
+        <h6>Price:$50 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/redme mob.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Redmi 13C 5G</h5>
+        <p class="card-text">Redmi 13C 5G (Starlight Black, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G |
+          90Hz Display</p>
+        <h6>Price:$50 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/poco mob.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">POCO C51</h5>
+        <p class="card-text">POCO C51 (Power Black, 6GB RAM, 128GB Storage)</p>
+        <h6>Price:$50 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/one plus mob.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">OnePlus Nord CE 3 5G</h5>
+        <p class="card-text">OnePlus Nord CE 3 Lite 5G (Chromatic Gray, 8GB RAM, 256GB Storage)</p>
+        <h6>Price:$50 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/iqoo.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">IQOO Z9 5G</h5>
+        <p class="card-text">IQOO Z9 5G (Brushed Green, 8GB RAM, 256GB Storage) | Dimensity 7200 5G Processor | Sony
+          IMX882 OIS Camera |</p>
+        <h6>Price:21,200 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/redmi13c.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Redmi 13C</h5>
+        <p class="card-text">Redmi 13C (Stardust Black, 4GB RAM, 128GB Storage) | Powered by 4G Mediatek Helio G85 |
+          90Hz Display | 50MP AI Triple Camera</p>
+        <h6>Price:7,799 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/samsung galaxy m14.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Samsung Galaxy M14 5G</h5>
+        <p class="card-text">Samsung Galaxy M14 5G (ICY Silver,6GB,128GB)|50MP Triple Cam|Segment's Only 6000 mAh 5G
+          SP|5nm Processor|2 Gen. OS Upgrade & 4 Year Security Update|12GB RAM with RAM Plus|Android 13|Without Charger
+        </p>
+        <h6>Price:10,990 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/onplus nord ce 3 5g.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Oneplus Nord CE 3 5G</h5>
+        <p class="card-text">Oneplus Nord CE 3 5G (Grey Shimmer, 8GB RAM, 128GB Storage)</p>
+        <h6>Price:10,990 </h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/iqoo z7 pro 5g.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Oneplus Nord CE 3 5G</h5>
+        <p class="card-text">iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage) | 3D Curved AMOLED Display | 4nm
+          MediaTek Dimesity 7200 5G Processor | 64MP Aura Light OIS Camera | Segment's Slimmest & Lightest Smartphone
+        </p>
+        <h6>Price:24,999</h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/redmi 13c.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Redmi 13C</h5>
+        <p class="card-text">Redmi 13C (Starshine Green, 4GB RAM, 128GB Storage) | Powered by 4G MediaTek Helio G85 |
+          90Hz Display | 50MP AI Triple Camera</p>
+        <h6>Price:9,777</h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/milstrone mobile.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Milestone Mobile</h5>
+        <p class="card-text">MILESTONE MOBILE ACCESSORIES Plastic Full Converter Sheet Compatible With, Phone Xsmax To
+          13 Promax Instant Change Pasteable Sheet (Black), Back Cover</p>
+        <h6>Price:9,777</h6>
+        <a href="#" class="btn btn-primary">Order available</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
